@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Idul Fitri</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+
+        body {
+            font-family: 'Scheherazade New', serif;
+            text-align: center;
+            background: linear-gradient(to bottom, #0e2a47, #16324a, #1e3b56);
+            color: white;
+            padding: 50px;
+            overflow: hidden;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+            max-width: 90%;
+            animation: fadeIn 2s ease-in-out;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #f4d03f;
+            text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+        }
+
+        p {
+            font-size: 22px;
+            margin: 15px 0;
+            text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+        }
+
+        .footer {
+            font-size: 20px;
+            font-weight: bold;
+            color: #e67e22;
+            text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+        }
+
+        .icon {
+            font-size: 60px;
+            margin-bottom: 15px;
+            animation: glow 1.5s infinite alternate;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px rgba(255, 223, 0, 0.7); }
+            to { text-shadow: 0 0 20px rgba(255, 223, 0, 1); }
+        }
+
+        /* Lentera */
+        .lantern {
+            position: absolute;
+            width: 50px;
+            animation: float 4s infinite alternate ease-in-out;
+        }
+
+        .lantern1 { left: 10%; top: 10%; animation-delay: 0s; }
+        .lantern2 { right: 15%; top: 20%; animation-delay: 1s; }
+        .lantern3 { left: 25%; top: 30%; animation-delay: 2s; }
+        .lantern4 { right: 30%; top: 40%; animation-delay: 3s; }
+
+        @keyframes float {
+            from { transform: translateY(0px); }
+            to { transform: translateY(20px); }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="icon">🌙✨</div>
+        <h1>Selamat Idul Fitri</h1>
+        <p><i>"Taqabbalallahu minna wa minkum. Semoga Allah menerima amal ibadah kita dan mempertemukan kita kembali di Ramadan berikutnya."</i></p>
+        <p class="footer">From Mas Gantengmu 💖</p>
+    </div>
+</body>
+</html>
